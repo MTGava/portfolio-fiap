@@ -1,5 +1,42 @@
-h1 {
-    font-size: 3.75rem;
-    font-weight: 700;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+header {
+    height: 100vh;
+    background-size: cover;
+    background-image: url('/assets/images/hero.jpg');
+
     color: #FFF;
+    
+}
+
+
+h1 {
+    font-size: 6rem;
+    font-weight: 900;
+    font-family: 'Poppins';
+
+}
+
+span {
+    font-size: 4.5rem;
+    font-family: 'Montserrat';
+}
+
+.botao {
+    padding: 1.4rem 11rem;
+    font-size: 3rem;
+    color: #FFF;
+    background: linear-gradient(270deg, #ED213A 0%, rgba(20, 30, 48, 0) 0%, #0F0C29 0.01%, #302B63 50.52%, #24243E 100%);
+    border-radius: 125px;
+    text-decoration: none;
 }
